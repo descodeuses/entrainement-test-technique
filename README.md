@@ -18,14 +18,17 @@ la sortie
 
 Contraintes bonus :
 
-La quantité d'enter à traité est comprise entre 0 et 10 puissance 5
+La quantité d'entier à traité est comprise entre 0 et 10 puissance 5
 
 (- 10 puissance 6) < arr[i] < (10 puissance 6)
 i compris entre 0 et N
 
 
+## Algorithme de résolution
 
-```javascript
-function main(input) {
-}
-```
+1. Récupèrer la liste d'entier sur la deuxième ligne
+2. convertir la deuxième ligne en tableau
+3. Parcourir la liste d'entier, pour chaque entier :
+  comparer avec le tableau de résultat
+    Si l'entier n'est pas dans le tableau alors on l'ajoute
+
